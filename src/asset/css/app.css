@@ -1,0 +1,106 @@
+.container {
+    margin: 50px 0;
+    display: flex;
+    flex: 1;
+}
+
+.card {
+    flex-direction: column;
+    margin: auto;
+    min-width: 250px;
+}
+
+.card__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__content div {
+    margin: 7px 0;
+}
+
+.card__content__title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.card__content__input-box span {
+    display: none;
+}
+
+.card__content__input-box input {
+    display: none;
+}
+
+.card__content__input-box input.active {
+    width: 200px;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.card__content__input-box span.active {
+    display: flex;
+    justify-content: center;
+    background-color: #349dec;
+    color: white;
+    width: 220px;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.card__content__button-box {
+    width: 120px;
+}
+
+button {
+    width: 100%;
+    background-color: #349dec;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: normal;
+    height: 35px;
+    font-size: 15px;
+}
+
+/* font css*/
+.text--x-small {
+    font-size: 13px;
+}
+
+.text--small {
+    font-size: 15px;
+}
+
+.text--medium {
+    font-size: 20px;
+}
+
+.text--large {
+    font-size: 23px;
+}
+
+.text--x-large {
+    font-size: 35px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+

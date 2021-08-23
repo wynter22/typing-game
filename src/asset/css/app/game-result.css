@@ -1,0 +1,12 @@
+/* game-result css */
+.game-result .card__header {
+    justify-content: center;
+}
+
+.game-result .card__content__button-box {
+    width: 180px;
+}
+
+.game-result .card__content div {
+    padding: 10px 0;
+}
